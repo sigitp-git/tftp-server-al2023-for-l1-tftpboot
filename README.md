@@ -36,9 +36,6 @@ Archive:  scratch-tftp.zip
   inflating: scratch-tftp/tftp-server-5.2-43.amzn2023.aarch64.rpm
 [ec2-user@ip-172-31-240-179 ~]$
 
-[ec2-user@ip-172-31-240-179 ~]$ cd scratch-tftp/
-[ec2-user@ip-172-31-240-179 scratch-tftp]$ yum localinstall tftp-server-5.2-43.amzn2023.aarch64.rpm
-Error: This command has to be run with superuser privileges (under the root user on most systems).
 [ec2-user@ip-172-31-240-179 scratch-tftp]$ sudo yum localinstall tftp-server-5.2-43.amzn2023.aarch64.rpm
 Amazon Linux 2023 repository                                                                                                                                                                                                                  0.0  B/s |   0  B     00:00
 Errors during downloading metadata for repository 'amazonlinux':
